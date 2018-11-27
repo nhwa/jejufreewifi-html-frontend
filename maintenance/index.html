@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="content-type" content="text/html; charset=euc-kr" />
+	<meta name="viewport" content="width=900">
+	<script src="js/jquery.js"></script>
+	<style type="text/css">
+     @font-face {font-family: 'Nanum Gothic'; font-style: normal;font-weight: 400;src: url('../fonts/NanumGothic/NanumGothic-Regular.eot');src: url('../fonts/NanumGothic/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/NanumGothic/NanumGothic-Regular.woff2') format('woff2'),url('../fonts/NanumGothic/NanumGothic-Regular.woff') format('woff'), url('../fonts/NanumGothic/NanumGothic-Regular.ttf') format('truetype');}
+    @font-face {font-family: 'Nanum Gothic';font-style: normal;font-weight: 700;src: url('../fonts/NanumGothic/NanumGothic-Bold.eot');src: url('../fonts/NanumGothic/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/NanumGothic/NanumGothic-Bold.woff2') format('woff2'),url('../fonts/NanumGothic/NanumGothic-Bold.woff') format('woff'), url('../fonts/NanumGothic/NanumGothic-Bold.ttf') format('truetype');}
+    @font-face {font-family: 'Nanum Gothic';font-style: normal;font-weight: 800;src: url('../fonts/NanumGothic/NanumGothic-ExtraBold.eot');src: url('../fonts/NanumGothic/NanumGothic-ExtraBold.eot?#iefix') format('embedded-opentype'),url('../fonts/NanumGothic/NanumGothic-ExtraBold.woff2') format('woff2'),url('../fonts/NanumGothic/NanumGothic-ExtraBold.woff') format('woff'), url('../fonts/NanumGothic/NanumGothic-ExtraBold.ttf') format('truetype');}
+    @font-face{font-family:'NanumGothicLight';  src:url(/fonts/NanumGothicLight.eot);src:url(/fonts/NanumGothicLight.eot?#iefix) format('embedded-opentype'),url(/fonts/NanumGothicLight.woff) format('woff'),url(/fonts/NanumGothicLight.ttf) format('truetype');src:local(※), url(/fonts/NanumGothicLight.woff) format('woff');}
+    html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align:baseline;font-family:'NanumGothic';}
+    html{height:100%;}
+    body {font-family:'NanumGothic';-ms-word-break:keep-all;word-break:keep-all;width:900px;margin:0 auto; background-color:#0173bc;}
+    .maintenance{position:absolute;text-align: center; height:900px; top:50%;margin-top:-450px;}
+    .main img{ width:60%; max-width:900px; margin-bottom:80px;}
+    .notice{width:100%; float:left;line-height:70px; margin-bottom:24px;}
+    .notice img{width:15%; max-width:140px;}
+    .text{color:#fff; display: inline-block; font-size:2.5rem; text-align:center; vertical-align:super; }
+    .text h2{font-size:4rem;}
+    .text .yellow{color:#fff000;}
+    .logo img{width:40%;}
+    </style>
+</head>
+<body>
+    <div class="maintenance">
+    <div class="main">
+        <img src="main.png"/>
+    </div>
+    <div class="notice">
+        <img src="notice.png" />
+        <div class="text">
+        <h2 data-langNum="0">서비스 <span class="yellow">점검중</span>입니다</h2>
+        <h1 data-langNum="1">지금은 이용하실 수 없습니다</h1>
+        </div>
+    </div>
+     <div class="logo">
+        <img src="logo.png" />
+     </div>
+ </div>
+</body>
+<script type="text/javascript">
+$(function(){
+   var language = navigator.languages && navigator.languages[0] || navigator.language || navigator.userLanguage;       
+   if(language === "zh-HK" || language === "zh-MO" || language === "zh-TW"){
+   language = "tw";
+   }
+   else if(language === "zh-CN" || language === "zh-SG"){
+   language = "cn"; }
+   else{
+   language = language.toLowerCase(); 
+   language = language.substring(0, 2); }
+   $.lang = {};
+   $.lang.ko = {
+        0: "서비스<span class='yellow'> 점검중</span>입니다",
+        1: "지금은 이용하실 수 없습니다"
+   }
+    $.lang.en = {
+        0: "<span class='yellow'>Mainenance</span> in progress",
+        1: " You can't use it now"
+   }
+    $.lang.ja = {
+        0: "サービスの<span class='yellow'>点検中</span>です",
+        1: "今は使えません"
+   }
+    $.lang.cn = {
+        0: "服务<span class='yellow'>检查中</span>",
+        1: "现在不能使用"
+   }
+    $.lang.tw = {
+        0: "服務<span class='yellow'>檢查中</span>",
+        1: "現在不能使用"
+   }
+    if(language == "en"){
+    $('.text').css('font-size','2.3rem');
+    $('.text h2').css('font-size','3.1rem');
+    }
+    else if(language == "ja"){
+    $('.text').css('font-size','2.9rem');
+    $('.text h2').css('font-size','3.2rem');
+    $('.notice').css('line-height','60px');
+    }
+    $('[data-langNum]').each(function() {
+    var $this = $(this); 
+    $this.html($.lang[language][$this.data('langnum')]); 
+    });
+});
+</script>
+</html>

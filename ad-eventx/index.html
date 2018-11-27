@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="ko">
+<head>                      
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="content-type" content="text/html; charset=euc-kr" />
+	<meta name="viewport" content="width=900">
+	<link rel="stylesheet" href="login.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.nice-select.js"></script>
+</head>
+<body>
+    <div class="wrap-top-log">
+        <div class="wrap-top">
+        <img src="logo.png" alt="제주도청" class="mx-auto d-block"></div>	
+    </div>
+    <div class="wrap-top2"><div class="bar"></div></div>
+<!--메인 페이지-->
+	<div class="main_wrapper">
+		<div class="twifi-wrap">
+			<div class="twifi"><img src="t-wifi.gif" alt="제주WI-FI" class="mx-auto d-block"></div>			
+		</div>
+		<div class="wrap-top2"><div class="bar2"></div></div>
+		<div class="secd-cont-warp">
+			<div class="secd-cont">
+				<p class="pstyle" data-langNum="0">제주 어느 곳에서나 무료 Wi-Fi 서비스를 즐기실 수 있습니다.</p>			
+				<div class="check-pt check01">
+					<input type='checkbox' name='terms' value='valuable' id="terms"/><label for="terms"><span class="sr-only">개인정보수집동의</span></label> 
+				</div>
+                <div class="check-pt check02"><p class="pstyle" ><label for="terms" data-langNum="1">제주도에서 제공하는 Wi-Fi 서비스를 이용하기 위해, 다음과 같이 본인의 개인정보 수집 및 이용하는 것에 대해 동의 합니다.</label></p></div></div>
+		</div>
+		<div class="snscont-wrap">
+			<div class="snscont">
+			<span class="terms-priv"><strong data-langNum="2">개인정보 수집 &#8226; 이용 전문 보기</strong></span>&nbsp;&nbsp;&nbsp;
+			<span class="info_click"><strong data-langNum="3">이용안내</strong></span>
+            <!--이용안내-->
+                <div class="info"><div class="info_img"><img src="info.png"/><div class="info_button" data-langNum="4">나가기</div></div></div>
+            <!--    -->
+				<div class="sns-links">
+					<ul>
+						<a href="#"><li><img src="icocor-kko.png" alt="카카오계정으로 가입"></li></a>
+						<a href="#"><li><img src="icocor-nav.png" alt="네이버계정으로 가입"></li></a>
+						<a href="#"><li><img src="icocor-fab.png" alt="페이스북계정으로 가입"></li></a>
+                            <a href="#"><li class="last"><img src="icocor-wec.png" alt="위쳇계정으로 가입"></li></a>
+					</ul>
+				</div>
+                  <span class="no-account"><strong data-langNum="5">소셜서비스 계정이 없습니다.</strong></span>
+			</div>			
+		</div>
+		<div>
+		</div>
+		<div class="themebg"></div>	
+		<div class="footer">
+			<img src="bottom-logo.png" alt="/" class="mx-auto d-block">
+        </div>
+    </div>
+<!-- -->
+    <div class="terms_priv_wrapper">
+<div class="wrap">
+        <div class="contents">
+            <div class="subp-title">
+                <h2 data-langNum="6">개인정보 수집 및 이용에 대한 동의</h2>
+            </div>
+            <div class="f-box" data-langNum="7">
+                제주도에서 제공하는 Wi-Fi 서비스를 이용하기 위해, 다음과 같이 본인의 개인정보 수집 및 이용하는 것에 대해 동의합니다. 
+                <div class="box-icon"></div>
+            </div>
+            <div class="s-box">
+                <h3 data-langNum="8">1. 수집항목</h3>
+                <ul>
+                    <li data-langNum="9">- 이용자의 E-Mail 또는 SNS, 성별, 국가, 연령대, 방문목적, 사용자 단말의 MAC, 접속한 APID</li>
+                </ul>
+                <h3 data-langNum="10">2. 이용목적 </h3>
+                <ul>
+                    <li data-langNum="11">- 서비스 이용 등록 확인</li>
+                    <li data-langNum="12">- 주요 방문 지역 확인 및 위치 기반 서비스 제공</li>
+                </ul>
+                <h3 data-langNum="13">3. 개인정보의 보유 및 이용 기간</h3>
+                <ul>
+                    <li data-langNum="14">- 서비스 최종 이용일로부터 6개월간 보유, 그 이후에는 DB에서 삭제합니다.</li>
+                </ul> 
+                <h3 data-langNum="15">4. 이용자의 권리와 제한 사항</h3>
+                <ul>
+                    <li data-langNum="16">- 귀하는 개인정보 제공에 대해 거부 할 수 있으며, 동의 거부시 제주도가 제공하는 Free Wi-Fi 서비스를 사용하실 수 없습니다.</li>
+                </ul>
+            </div>
+            <div class="t-box" data-langNum="17">
+                와이파이 서비스는 보안에 취약함으로 이용자의 개인정보, 금융거래정보 등 중요정보가 유출/누락될 수 있으니 이용에 세심한 주의가 필요합니다.
+            </div>
+            <div class="btn-close">
+                <button id="terms-priv_exit" data-langNum="18">나가기</button>
+            </div>
+        </div>
+        <div class="footer-wrap">
+            <div class="footer">
+               <img src="logo.png" alt="제주특별자치도" class="mx-auto d-block">
+            </div>
+        </div>
+	</div>
+    </div>
+	<div class="agreement_wrapper">
+    <div class="wrap">
+	    <div class="contents">
+            <div class="agreement_content">
+               <div class="subp-title">
+                    <h2 data-langNum="19">공공와이파이 이용 정보 등록 안내</h2>
+                </div>
+                <div class="f-box">
+                    <ul class="">
+                    <li data-langNum="20">아래 항목을 선택하시고 공공 와이파이를 무료로 이용하세요.</li>
+                    <li data-langNum="21">보다 편리한 서비스제공을 위해서 올바른 선택을 부탁드립니다.</li>
+                    </ul> 
+                </div>
+                <div class="must">
+                    <span class="red">&#42;</span><span data-langNum="22">표기영역은 필수 입력 항목입니다.</span>
+                </div>
+                    <form id="form-wrap" action="./ad.hmtl" method="post">
+                        <div class="sex-group">
+                            <div class="agreement_title">
+                                <span class="red">&#42;</span><span data-langNum="23">성별</span>
+                            </div>
+                            <input id="male" type="radio" name="sex" value="남">
+                            <label for="male" data-langNum="24">남</label>
+                            <input id="female" type="radio" name="sex" value="여"/>
+                            <label for="female" data-langNum="25">여</label>
+                            <div class='sex_error' data-langNum="26">성별을 선택하세요.</div>
+                        </div>
+                         <div class="age-group">
+                           <div class="agreement_title">
+                               <span class="red">&#42;</span> <span data-langNum="27">연령</span>
+                            </div>
+                            <input id="-19yrs" type="radio" name="age" value="-19yrs"/>
+                            <label for="-19yrs" data-langNum="28">10대이하</label>
+                            <input id="20yrs" type="radio" name="age" value="20yrs" />
+                            <label for="20yrs" data-langNum="29">20대</label>
+                            <input id="30yrs" type="radio" name="age" value="30yrs" />
+                            <label for="30yrs" data-langNum="30">30대</label>
+                            <input id="40yrs" type="radio" name="age" value="40yrs" />
+                            <label for="40yrs" data-langNum="31">40대</label>
+                            <input id="51+yrs" type="radio" name="age" value="51+yrs" />
+                            <label for="51+yrs" data-langNum="32">50대이상</label>
+                            <div class='age_error' data-langNum="33">연령을 선택하세요</div>
+                        </div>
+                         <div class="purpose-group">
+                           <div class="agreement_title" data-langNum="34">
+                             방문목적
+                            </div>
+                             <select name="visit-type_select" id="selectVisit-type" class="wide">
+                     <option value="write" selected data-langNum="35">직접입력</option>
+                                 <option value="Sightseeing" data-langNum="36">관광</option>
+                                 <option value="Business" data-langNum="37">업무</option>
+                                 <option value="Residence" data-langNum="38">거주</option>
+                                 <option value="Conference or Business Events" data-langNum="39">국제회의 및 인센티브 투어</option>
+                                 <option value="Etc" data-langNum="40">기타</option>
+                            </select>
+                        </div>
+                          <div class="email-group">
+                          <div class="agreement_title" data-langNum="41">이메일</div>
+                           <input type="text" id="str_email01" /> @ <input type="text" id="str_email02">
+                                 <select name="email_select" id="selectEmail" class="wide">
+                                 <option value="write" selected data-langNum="42">직접입력</option>
+                                 <option value="naver.com">naver.com</option><option value="hamail.net">hanmail.net</option>
+                                 <option value="daum.net">daum.net</option>
+                                 <option value="nate.com">nate.com</option>
+                                 <option value="gmail.com">gmail.com</option>
+                                 <option value="hotmail.comm">hotmail.com</option>
+                                  </select>
+                            <div class='email_error' data-langNum="43">올바른 형식이 아닙니다.</div>
+                        </div>
+                        <button type="submit" value="submit" class="agreement_submit" data-langNum="44">다음</button>
+                    </form>
+          </div>
+        </div>
+         <div class="footer-wrap">
+                <div class="footer">
+                    <img src="logo.png" alt="제주특별자치도" class="mx-auto d-block">
+                </div>
+        </div>
+        </div>
+        </div>
+	<div class="phonelogin_wrapper">
+	    <img src="phonelogin.png"/>
+	</div>
+	<div class="kakaotok_wrapper">
+        <img src="kakaologin.png"/>
+    </div>
+	<div class="ad_wrapper">
+        <img src="ad.png" />
+        <div class="ad">
+            <button class="noevent" data-langNum="46">와이파이 이용하기</button>
+        </div>
+	</div>
+<!--pop-up-->
+  <div id="layer" class="layer-wrap">
+    <div class="pop-layer">
+        <div class="pop-container">
+           <div class="pop_header" data-langNum="47">
+               개인정보이용동의 확인
+           </div>
+            <div class="pop-conts">
+                <p data-langNum="48">개인정보 수집·이용에 동의하지 않으면 와이파이를 이용하실 수 없습니다. </p>
+                <div class="btn-r">
+                    <div class="btn-layerClose1" data-langNum="49">닫기</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="layer2" class="layer-wrap">
+    <div class="pop-layer2">
+        <div class="pop-container">
+           <div class="pop_header" data-langNum="50">
+               이벤트 참여 <div class="btn-layerClose2">x</div>
+           </div>
+            <div class="pop-conts">
+                <div class="agreement_title" data-langNum="51">
+                    이메일
+                    </div>
+                    <input type="text" id="str_email11" /> @ <input type="text" id="str_email12">
+                      <select name="email_select" id="selectEmail2" class="wide">
+                     <option value="write" selected data-langNum="52">직접입력</option>
+                     <option value="naver.com">naver.com</option><option value="hamail.net">hanmail.net</option>
+                     <option value="daum.net">daum.net</option>
+                     <option value="nate.com">nate.com</option>
+                     <option value="gmail.com">gmail.com</option>
+                     <option value="hotmail.comm">hotmail.com</option>
+                </select>
+                    <div class='email_error' data-langNum="53">올바른 이메일 형식이 아닙니다.</div>
+                    <a href="#" class="eventclick" data-langNum="54">이벤트 신청</a>
+                </div><div class="notice" data-langNum="55">
+                     ※ 신청해 주시는 모든 내용은 이벤트 당첨자 선정 및 통계적 목적으로만 사용되며, 이벤트 중복참여는 불가능하오니 참고하시기 바랍니다.
+            </div>
+        </div>
+    </div>
+</div>
+  <div id="layer3" class="layer-wrap">
+    <div class="pop-layer">
+        <div class="pop-container">
+           <div class="pop_header" data-langNum="56">
+               등록확인
+           </div>
+            <div class="pop-conts">
+                <p data-langNum="57">입력한 정보가 정상적으로 반영되었습니다.<br/>다음 화면으로 이동합니다.</p>
+                <div class="btn-r">
+                    <div class="btn-layerClose1" data-langNum="58">닫기</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+   var language = navigator.languages && navigator.languages[0] || navigator.language || navigator.userLanguage;       
+   if(language === "zh-HK" || language === "zh-MO" || language === "zh-TW"){
+   language = "tw";}
+   else if(language === "zh-CN" || language === "zh-SG"){
+   language = "cn";}
+   else{
+   language = language.toLowerCase(); 
+   language = language.substring(0, 2);}
+   $.lang = {};
+   $.lang.ko = {
+        0: "제주 어느 곳에서나 무료 Wi-Fi 서비스를 즐기실 수 있습니다.",
+        1: "제주도에서 제공하는 Wi-Fi 서비스를 이용하기 위해, 다음과 같이 본인의 개인정보 수집 및 이용하는 것에 대해 동의 합니다.",
+        2: "개인정보 수집 &#8226; 이용 전문 보기",
+        3: "이용안내",
+        4: "나가기",
+        5: "소셜서비스 계정이 없습니다.",
+        6: "개인정보 수집 및 이용에 대한 동의",
+        7: "제주도에서 제공하는 Wi-Fi 서비스를 이용하기 위해, 다음과 같이 본인의 개인정보 수집 및 이용하는 것에 대해 동의합니다. ",
+        8: "1. 수집항목",
+        9: "- 이용자의 E-Mail 또는 SNS, 성별, 국가, 연령대, 방문목적, 사용자 단말의 MAC, 접속한 APID",
+        10: "2. 이용목적",
+        11: "- 서비스 이용 등록 확인",
+        12: "- 주요 방문 지역 확인 및 위치 기반 서비스 제공",
+        13: "3. 개인정보의 보유 및 이용 기간",
+        14: "- 서비스 최종 이용일로부터 6개월간 보유, 그 이후에는 DB에서 삭제합니다.",
+        15: "4. 이용자의 권리와 제한 사항",
+        16: "- 귀하는 개인정보 제공에 대해 거부 할 수 있으며, 동의 거부시 제주도가 제공하는 Free Wi-Fi 서비스를 사용하실 수 없습니다.",
+        17: " 와이파이 서비스는 보안에 취약함으로 이용자의 개인정보, 금융거래정보 등 중요정보가 유출/누락될 수 있으니 이용에 세심한 주의가 필요합니다.",
+        18: "나가기",
+        19: "공공와이파이 이용 정보 등록 안내",
+        20: "아래 항목을 선택하시고 공공 와이파이를 무료로 이용하세요.",
+        21: "보다 편리한 서비스제공을 위해서 올바른 선택을 부탁드립니다.",
+        22: "표기영역은 필수 입력 항목입니다.",
+        23: "성별",
+        24: "남",
+        25: "여",
+        26: "성별을 선택하세요.",
+        27: "연령",
+        28: "10대이하",
+        29: "20대",
+        30: "30대",
+        31: "40대",
+        32: "50대이상",
+        33: "연령을 선택하세요",
+        34: "방문목적",
+        35: "직접입력",
+        36: "관광",
+        37: "업무",
+        38: "거주",
+        39: "국제회의 및 인센티브 투어",
+        40: "기타",
+        41: "이메일",
+        42: "직접입력",
+        43: "올바른 형식이 아닙니다.",
+        44: "다음",
+        45: "이벤트 참여",
+        46: "와이파이 이용하기",
+        47: "개인정보이용동의 확인",
+        48: "개인정보 수집·이용에 동의하지 않으면 와이파이를 이용하실 수 없습니다.",
+        49: "닫기",
+        50: "이벤트 참여 <div class='btn-layerClose1'>x</div>",
+        51: "이메일",
+        52: "직접입력",
+        53: "올바른 이메일 형식이 아닙니다.",
+        54: "이벤트 신청",
+        55: "※ 신청해 주시는 모든 내용은 이벤트 당첨자 선정 및 통계적 목적으로만 사용되며, 이벤트 중복참여는 불가능하오니 참고하시기 바랍니다.",
+        56: "등록확인",
+        57: "입력한 정보가 정상적으로 반영되었습니다.<br/>다음 화면으로 이동합니다.",
+        58: "닫기",
+        59 : "무료 Wi-Fi를 이용하실 수 있습니다."
+    };
+    $.lang.en = {
+        0: "You can enjoy free Wi-Fi service anywhere in Jeju.",
+        1: "In order to use the free Wi-Fi service provided by Jeju, I agree to collect and use my personal information as follows.",
+        2: "Privacy Statement",
+        3: "Information on use",
+        4: "Close",
+        5: "I don't have an account.",
+        6: "Consent for collection and use <br/>personal information",
+        7: "In order to use the free Wi-Fi service provided by Jeju, I agree to collect and use my personal information as follows.",
+        8: "1. Collection item",
+        9: "- User's E-Mail or SNS, gender, state, age, purpose of visit, MAC of user's terminal, APID connected.",
+        10: "2. Purpose of Use",
+        11: "- Conformation of registration for using Free Wi-Fi service",
+        12: "- Confirmation of major visiting areas and provision of location based services",
+        13: "3. Retention period and usage period of personal information",
+        14: "- It will be held for 6 months from the last use date of the service, then it will be deleted from the DB.",
+        15: "4. User rights and restrictions",
+        16: "- You can refuse to provide personal information, and you can not use Free WiFi service provided by Jeju Island when refusing consent.",
+        17: "This free Wi-Fi service is vulnerable to security, so sensitive information such as user's personal information and financial transaction information may leak or be missed. Careful attention is required for use.",
+        18: "Exit",
+        19: "Registering information",
+        20: "Select the following items and use Jeju Wi-Fi free of charge.",
+        21: "Please make the right choice to provide more convenient service.",
+        22: "Required items",
+        23: "Gender",
+        24: "Male",
+        25: "Female",
+        26: "choose the gender.",
+        27: "Ages",
+        28: "-19yrs",
+        29: "20yrs",
+        30: "30yrs",
+        31: "40yrs",
+        32: "51+yrs",
+        33: "choose the age.",
+        34: "Visit Type",
+        35: "Input",
+        36: "Sightseeing",
+        37: "Business",
+        38: "Residence",
+        39: "Conference or Business Events",
+        40: "Etc",
+        41: "E-mail",
+        42: "Input",
+        43: "It's not correct format.",
+        44: "Next",
+        45: "Join the Event",
+        46: "Use the Wi-Fi",
+        47: "Consent for use personal information",
+        48: "If you don't agree to collect and use your personal information, you will not be able to use Wi-Fi.",
+        49: "Close",
+        50: " Join the Event <div class='btn-layerClose1'>x</div>",
+        51: "Email",
+        52: "Input",
+        53: "It's not correct format.",
+        54: "Apply for the event",
+        55: "※ All information you submit will be only used for event winner selection and statistical purposes and Please note that it is not possible to participate in duplicate events.",
+        56: "Registration confirmation",
+        57: "The information you entered was reflected correctly. Go to the next screen.",
+        58: "Close",
+        59: "You can use a free Wi-Fi."
+    }; 
+    $.lang.ja = {
+        0: "済州のどこでも無料ワイファイを楽しんでミスがあります。",
+        1: "済州道が提供するWi-Fiサービスを利用するために,下記の通り本人の個人情報収集および利用に同意<br>します。",
+        2: "個人情報の収集と利用内容の表示",
+        3: "利用案内",
+        4: "終了",
+        5: "ソーシャルサービスアカウントがありません",
+        6: "個人情報収集及び利用について同意",
+        7: "済州島で提供するWi-Fiサービスを利用する<br>ため次のように本人の個人情報を収集及<br>び利用することについて同意します。",
+        8: "1. 收集项目",
+        9: "- 利用者のE-MailまたはSNS、性別、国家、年齢、 訪問目的、使用者の端末のMAC、接続したAPID",
+        10: "2. 利用目的",
+        11: "- サービス利用登録確認",
+        12: "- 主要訪問地域の確認及び位置基盤サービス提供",
+        13: "3. 個人情報の保有及び利用期間",
+        14: "- サービスの最終利用日から6ヵ月間、保有、その後はDBから削除します。",
+        15: "4. 利用者の権利と制限事項",
+        16: "- 貴下は個人情報提供について拒否できるし、同意の拒否時 済州島が提供するFree Wi-Fiサービスを使用できません。",
+        17: " ワイファイサービスは,セキュリティに弱いことにより、 利用者の個人情報、金融取引情報などの重要情報が 流出/漏れの恐れがありますので 利用に細心の注意が必要です。",
+        18: "終了",
+        19: "公共のWi-Fi利用情報登録",
+        20: "以下の項目を選択し、済州のWi-Fiを無料でご利用ください。",
+        21: "適切な選択をして、より便利なサービスを提供してください。",
+        22: "必須項目",
+        23: "性別",
+        24: "男",
+        25: "女",
+        26: "性別を選択してください。",
+        27: "年齢",
+        28: "-19yrs",
+        29: "20yrs",
+        30: "30yrs",
+        31: "40yrs",
+        32: "51+yrs",
+        33: "年齢を選択しなさい。",
+        34: " 訪問の目的",
+        35: "直接入力",
+        36: "観光",
+        37: "業務",
+        38: "居住",
+        39: "国際会議orインセンティブツアー",
+        40: "その他",
+        41: "E-mail",
+        42: "Input",
+        43: "正しい形式ではありません。",
+        44: "次",
+        45: "イベント参加",
+        46: "ワイファイ利用",
+        47: "個人情報利用同意の確認",
+        48: "個人情報の収集および利用に同意しなければ, ワイファイを利用することはできません。",
+        49: "終了",
+        50: "イベント参加 <div class='btn-layerClose1'>x</div>",
+        51: "E-mail",
+        52: "直接入力",
+        53: "正しい形式ではありません。",
+        54: "イベント申し込み",
+        55: "※ 申し込んでくださるすべての内容は, イベント当選者の選定および統計的な目的にのみ使用され,イベントの重複参加は不可能ですので,参考してください。",
+        56: "登録確認",
+        57: "入力した情報が正常に反映されました。<br/>次の画面に移動します。",
+        58: "終了",
+        59: "無料ワイファイを利用できます。"
+    };
+     $.lang.cn = {
+        0: "在济州任何地方都可以享受免费Wi-Fi服务。",
+        1: "为使用济州岛提供的Wi-Fi服务, 同意如下收集 及使用本人个人信息。",
+        2: "查看个人信息收集及使用内容",
+        3: "使用指南",
+        4: "关闭",
+        5: "没有社交账户。",
+        6: "同意收集及使用个人信息",
+        7: "同意为使用在济州道提供的Wi-Fi服务 收集及使用以下的本人个人信息。",
+        8: "1. 收集物品",
+        9: "- 使用者的E-Mail或SNS，性别，国籍,年龄，访问目的，使用者终端设备的MAC，登记的APID<br/>",
+        10: "2. 使用目的",
+        11: "- 用于服务使用的登记确认",
+        12: "- 用于主要访问地区的确认及提供位置基础服务",
+        13: "3. 个人信息的保留及使用期间",
+        14: "- 服务最后使用日后6个月内保留，之后将于DB上删除。",
+        15: "4. 使用者的权利及限制事项",
+        16: "- 您有权拒绝提供个人信息，拒绝同意时济州市提供的 Free Wi-Fi(免费无线网)服务将无法使用。",
+        17: "Wi-Fi(无线网) 服务因安全的脆弱性，使用者的个人信息、金融交易信息等重要信息 有泄漏/遗漏的可能，使用时需小心注意。",
+        18: "关闭",
+        19: "公共WiFi使用信息登记",
+        20: "选择以下项目并免费使用济州Wi-Fi。",
+        21: "请做出正确的选择，提供更便捷的服务。",
+        22: "强制性",
+        23: "性别",
+        24: "男",
+        25: "女",
+        26: "请选择性别。",
+        27: "年齢",
+        28: "-19yrs",
+        29: "20yrs",
+        30: "30yrs",
+        31: "40yrs",
+        32: "51+yrs",
+        33: "请选择年龄。",
+        34: "访问目的",
+        35: "直接输入",
+        36: "观光",
+        37: "业务",
+        38: "居住",
+        39: "国际会议及奖励旅游",
+        40: "其他",
+        41: "E-mail",
+        42: "直接输入",
+        43: "形式不正确。",
+        44: "下一个",
+        45: "参与活动",
+        46: "利用Wi-Fi",
+        47: "个人信息使用同意确认",
+        48: "如不同意个人信息收集及使用,则不能使用WiFi。",
+        49: "关闭",
+        50: "参与活动 <div class='btn-layerClose1'>x</div>",
+        51: " E-mail",
+        52: "直接输入",
+        53: "形式不正确。",
+        54: "活动申请",
+        55: "※ 申请的所有内容只用于活动获奖者的选定及统计 目的,不能重复参与活动,敬请参考。",
+        56: "登记确认",
+        57: "输入的信息已正常反映。<br/>移动到下一页。",
+        58: "关闭",
+        59: "可以使用免费wifi。"
+    };
+    $.lang.tw = {
+        0: "在濟州任何地方都可以享受免費Wi-Fi服務。",
+        1: "爲使用濟州島提供的Wi-Fi服務,同意如下收集 及使用本人個人信息。",
+        2: "查看個人信息收集及使用內容",
+        3: "使用指南",
+        4: "關閉",
+        5: "沒有社交賬戶。",
+        6: "同意收集及使用個人信息",
+        7: "同意為使用在濟州道提供的Wi-Fi服務 收集及使用以下的本人個人信息。",
+        8: "1. 收集物品",
+        9: "- 使用者的E-Mail或SNS，性別，國籍,年齡，訪問目的，使用者終端設備的MAC，登記的APID",
+        10: "2. 使用目的",
+        11: "- 用於服務使用的登記確認",
+        12: "- 用於主要訪問地區的確認及提供位置基礎服務",
+        13: "3. 個人信息的保留及使用期間",
+        14: "- 服務最後使用日後6個月內保留，之後將於DB上刪除。",
+        15: "4. 使用者的權利及限制事項",
+        16: "- 您有權拒絕提供個人信息，拒絕同意時濟州市提供的 Free Wi-Fi(免費無線網)服務將無法使用。",
+        17: "Wi-Fi(無線網) 服務因安全的脆弱性，使用者的個人信息、金融交易信息等重要信息 有洩漏/遺漏的可能， 使用時需小心注意。",
+        18: "關閉",
+        19: "公共WiFi使用信息登記",
+        20: "選擇以下項目並免費使用濟州Wi-Fi。",
+        21: "請做出正確的選擇，提供更便捷的服務",
+        22: "强制性",
+        23: "性別",
+        24: "男",
+        25: "女",
+        26: "請選擇性別。",
+        27: "時代",
+        28: "-19yrs",
+        29: "20yrs",
+        30: "30yrs",
+        31: "40yrs",
+        32: "51+yrs",
+        33: "請選擇年齡。",
+        34: "訪問目的",
+        35: "直接輸入",
+        36: "觀光",
+        37: "業務",
+        38: "居住",
+        39: "國際會議及獎勵旅遊",
+        40: "其他",
+        41: "E-mail",
+        42: "直接輸入",
+        43: "形式不正確。",
+        44: "下一個",
+        45: "參與活動",
+        46: "利用Wi-Fi",
+        47: "個人信息使用同意確認",
+        48: "如不同意個人信息收集及使用,則不能使用WiFi。",
+        49: "關閉",
+        50: "參與活動 <div class='btn-layerClose1'>x</div>",
+        51: "E-mail",
+        52: "直接輸入",
+        53: "形式不正確。",
+        54: "活動申請",
+        55: " ※ 申請的所有內容只用於活動獲獎者的選定及統計目的,不能重複參與活動,敬請參考。",
+        56: "登記確認",
+        57: "輸入的信息已正常反映。<br/>移動到下一頁。",
+        58: "關閉",
+        59: "可以使用免費wifi。"
+    };
+    $('[data-langNum]').each(function() {
+    var $this = $(this); 
+    $this.html($.lang[language][$this.data('langnum')]); 
+    });
+    
+  if(language === "cn" || language === "tw"){
+    $('.check-pt').css('margin-top','25px');
+    $('.check01').css('margin-top','35px');
+    $('.pstyle').css('font-size','2.2em');
+    $('.check02 >.pstyle').css('font-size','2.5em');
+    $('.terms_priv_wrapper .contents').css('margin-top','75px');
+    $('.btn-close').css({ 'margin-top': '40px', 'margin-bottom': '130px'});
+    $('.agreement_wrapper .contents').css('margin-top','70px');
+    $('#form-wrap button').css('margin-bottom','47px');
+    }
+});
+$(document).ready(function() {
+  $('select').niceSelect();
+});
+$(document).ready(function(){ 
+
+    $('.terms-priv').click(function(){
+        $('.main_wrapper').css('display','none');
+        $("body").css('background-color','#fff');
+        $('.terms_priv_wrapper').css('display','block');
+    })
+    $('#terms-priv_exit').click(function(){
+        $('.main_wrapper').css('display','block');
+        $("body").css('background-color','#53b47d');
+        $('.terms_priv_wrapper').css('display','none');
+    })
+    $('.info_click').click(function(){
+       $('body').css('overflow','hidden');
+       $('.info').css('display','block');
+    })
+    $('.info_button').click(function(){
+       $('body').css('overflow','visible');
+        $('.info').css('display','none');
+    })
+    $('.no-account').click(function(){
+        if ($("input:checkbox[name='terms']").is(":checked")== false){
+            $('#layer').fadeIn();
+            $('.btn-layerClose1').on('click', function() {
+            $('#layer').fadeOut();});
+         }
+        else{
+        $("body").css('background-color','#fff');
+        $('.main_wrapper').css('display','none');
+        $('.wrap-top-log').css('display','none');
+        $('.wrap-top2').css('display','none');
+        $('.phonelogin_wrapper').css('display','block');
+        }
+    });
+    $('.sns-links li').click(function(){
+        if ($("input:checkbox[name='terms']").is(":checked")== false){
+            $('#layer').fadeIn();
+            $('.btn-layerClose1').on('click', function() {
+            $('#layer').fadeOut();});
+         }else{
+        $("body").css('background-color','#fff');
+        $('.main_wrapper').css('display','none');
+        $('.wrap-top-log').css('display','none');
+        $('.wrap-top2').css('display','none');
+        $('.kakaotok_wrapper').css('display','block');
+        }
+    });
+     $('.phonelogin_wrapper,.kakaotok_wrapper').click(function(){
+         
+        $('.wrap-top-log').css('display','block');
+        $('.wrap-top2').css('display','block');
+        $('.phonelogin_wrapper').css('display','none');
+        $('.kakaotok_wrapper').css('display','none');
+        $('.agreement_wrapper').css('display','block');
+    })
+    $('#selectEmail').change(function(){ 
+        $("#selectEmail option:selected").each(function(){
+            if($(this).val()=='write'){ 
+            $("#str_email02").val(''); 
+            $("#str_email02").attr("disabled",false);
+            }
+            else{
+            $("#str_email02").val($(this).text());
+            $("#str_email02").attr("disabled",true);
+            }
+        });
+    });
+    $('#selectEmail2').change(function(){ 
+        $("#selectEmail2 option:selected").each(function(){
+            if($(this).val()=='write'){ 
+            $("#str_email12").val(''); 
+            $("#str_email12").attr("disabled",false);
+            }
+            else{
+            $("#str_email12").val($(this).text());
+            $("#str_email12").attr("disabled",true);
+            }
+        });
+    });
+    $('.agreement_submit').click(function(){
+        $('.sex_error').css('display','none');
+        $('.age_error').css('display','none');
+        $('.email_error').css('display','none');
+        var checksex = $(':input[name=sex]:radio:checked').val();
+        var checkage = $(':input[name=age]:radio:checked').val();
+        var email01 = $(':input[id=str_email01]').val();
+        var email02 = $(':input[id=str_email02]').val();
+        
+        if((checksex)&&(checkage)){
+          if((email01)&&(email02)){
+            $('#layer3').fadeIn();
+            $('.btn-layerClose1').on('click', function() {
+                $('#layer3').fadeOut();
+                $('.wrap-top-log').css('display','none');
+                $('.wrap-top2').css('display','none');
+                $('.agreement_wrapper').css('display','none');
+                $('.ad_wrapper').css('display','block');
+             });
+            return false;
+         }
+         else if(email01){ 
+             $('.email_error').css('display','block');
+            return false;
+        }
+         else if(email02){
+             $('.email_error').css('display','block');
+            return false;
+        }
+         else{
+           $('#layer3').fadeIn();
+            $('.btn-layerClose1').on('click', function() {
+                $('#layer3').fadeOut();
+                $('.wrap-top-log').css('display','none');
+                $('.wrap-top2').css('display','none');
+                $('.agreement_wrapper').css('display','none');
+                $('.ad_wrapper').css('display','block');
+             });
+           return false;
+        }
+        }
+        else if(checksex){ 
+             $('.age_error').css('display','block');
+             if(email01){
+             $('.email_error').css('display','block');
+        }
+        else if(email02){
+             $('.email_error').css('display','block');
+             }
+            return false;
+        }
+        else if(checkage){
+             $('.sex_error').css('display','block');
+              if(email01){
+             $('.email_error').css('display','block');
+        }
+        else if(email02){
+             $('.email_error').css('display','block');
+             }
+        return false;
+        }
+        else{
+            $('.sex_error').css('display','block');
+            $('.age_error').css('display','block');
+          if(email01){
+             $('.email_error').css('display','block');
+          }
+           else if(email02){
+             $('.email_error').css('display','block');
+             }
+            return false;
+        }
+    });
+    $('.event').click(function(){
+            $('#layer2').fadeIn();
+            $('.btn-layerClose2,.btn-layerClose1').on('click', function() {
+            $('#layer2').fadeOut();});
+    });
+    $('.eventclick').click(function(){
+        $('.email_error').css('display','none');
+        var email01 = $('#str_email11').val();
+        var email02 = $('#str_email12').val();
+            if((email01)&&(email02)){
+            window.location.href="./index.html";
+            return true;
+            }
+            else{
+                 $('.email_error').css('display','block');
+                return false;
+            }
+    });
+});
+    </script>
+</body>
+</html>
