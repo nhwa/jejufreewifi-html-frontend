@@ -1,12 +1,13 @@
 Jeju Public Wi-Fi Publishing Project
 =============
-
 ### 제주 공공 Wi-Fi 통합 관제 시스템 구축
 제주 공공 Wi-Fi 사용자 서비스 화면 퍼블리싱
 
+#### Link
+> [ 제주공공 Wi-Fi 사용자 페이지 ](https://nhwa.github.io/jejufreewifi-html-frontend/ad-event/index.html)
+
 #### 개발 시기
 > 2018. 09 - 2018. 12
-
 
 #### SKILL
 ` HTML5, CSS, JavasCript `
