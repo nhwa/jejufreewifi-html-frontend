@@ -1,7 +1,7 @@
 Jeju Public Wi-Fi Publishing Project
 =============
 ### 제주 공공 Wi-Fi 통합 관제 시스템 구축
-제주 공공 Wi-Fi 사용자 서비스 화면 퍼블리싱
+제주 공공 Wi-Fi 사용자 서비스 화면 퍼블리싱 업무
 
 #### Link
 > [ 제주공공 Wi-Fi 사용자 페이지 ](https://nhwa.github.io/jejufreewifi-html-frontend/ad-event/index.html)
@@ -19,10 +19,10 @@ Jeju Public Wi-Fi Publishing Project
 </p>
 
 #### 개발 업무
-> 광고/ 이벤트 / 설문 / 영상 유무에 따른 페이지 제작
-> Jquery, bootstrap 및 viewport, media query 활용하여 반응형 페이지 제작
-> navigator.language를 통해 브라우저 언어 설정에 따른 언어별 페이지( 한국어, 일본어, 영어, 중국어 간체 / 번체 ) 제작
-> 연계 페이지, 점검 페이지, 안내화면 제작 및 테스트
+- 광고/ 이벤트 / 설문 / 영상 유무에 따른 페이지 제작
+- Jquery, bootstrap 및 viewport, media query 활용하여 반응형 페이지 제작
+- navigator.language를 통해 브라우저 언어 설정에 따른 언어별 페이지( 한국어, 일본어, 영어, 중국어 간체 / 번체 ) 제작
+- 연계 페이지, 점검 페이지, 안내화면 제작 및 테스트
 
 <br/>
 
