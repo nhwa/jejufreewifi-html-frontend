@@ -10,7 +10,7 @@ Jeju Public Wi-Fi Publishing Project
 > 2018. 09 - 2018. 12
 
 #### SKILL
-` HTML5, CSS, JavasCript `
+` HTML5, CSS, JavasCript, Jquery `
 
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
@@ -19,7 +19,9 @@ Jeju Public Wi-Fi Publishing Project
 </p>
 
 #### 개발 업무
-> 언어별(한국어, 일본어, 영어, 중국어 간체 / 번체) 제주 공공 Wi-Fi 사용자 페이지
+> 광고/ 이벤트 / 설문 / 영상 유무에 따른 페이지 제작
+> Jquery, bootstrap 및 viewport, media query 활용하여 반응형 페이지 제작
+> navigator.language를 통해 브라우저 언어 설정에 따른 언어별 페이지( 한국어, 일본어, 영어, 중국어 간체 / 번체 ) 제작
 > 연계 페이지, 점검 페이지, 안내화면 제작 및 테스트
 
 <br/>
